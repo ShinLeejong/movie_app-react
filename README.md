@@ -1,0 +1,1 @@
+Only src folder files uploaded inside a submodule folder(movie_app-react).
