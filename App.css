@@ -66,6 +66,7 @@ html, body, #root, .container{
 
 .genre{
     font-weight: 300;
+    margin: 0;
 }
 
 .movie__year, .genre {
@@ -85,4 +86,9 @@ h4 {
     margin-top : 3px;
     margin-bottom : 2px;
     position : relative;
+}
+
+ul li {
+    margin : 0;
+    font-style : italic;
 }
