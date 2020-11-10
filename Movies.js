@@ -11,7 +11,7 @@ function Movies({id, title, year, rating, runtime, summary, genre, language, ima
             <div className="movie__data">
                 <h3 className="movie__title">{title}</h3>
                 <h5 className="movie__year">{year}</h5>
-                <p className="movie__summary">{summary.slice(0,260)}...</p>
+                <p className="movie__summary">{summary.slice(0,150)}...</p>
                 <h4 className="movie__genre">Genre</h4>
                 <ul className="genre">{genre.map((genre, index) => <li key={index} className="genre__genre">{genre}</li>)}</ul>
                 <div className="etcs">
